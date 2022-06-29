@@ -1,0 +1,28 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #16161d;
+    background-color: rgb(227, 248, 228);
+}
+.container {
+    margin: 100px;
+}
+.btn{
+    padding: 10px 8px;
+    width: 50px;
+    color: rgb(94, 93, 93);
+    background: #8ec3cc;
+    border: 9px inset #555;
+    border-radius: 50px;
+    text-align:center;
+    user-select: none;
+    cursor: pointer;
+    transition: background 1s;
+    
+    
+
+}
+.btn:hover{
+    background-color: #ebf3f5;
+    box-shadow: -120px 120px 20px #555 ;
+    
+}
